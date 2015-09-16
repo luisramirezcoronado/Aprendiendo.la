@@ -1,6 +1,6 @@
 /*Fuentes propias*/
 
-@font-face {
+/*@font-face {
     font-family: 'menu';
     src: url('../fonts/armalite_rifle-webfont.eot');
     src: url('../fonts/armalite_rifle-webfont.eot?#iefix') format('embedded-opentype'),
@@ -11,35 +11,50 @@
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
 .image img{
    width:100%;
-   height:450px;
+   height:650px;
 }
 
 .navbar-brand{
-  font-family:"menu";
   font-style:italic;
   font-weight: bold;
+  color:white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
 }
 
  .navbar-default .navbar-nav>li>a{
- 	color:#AAA;
+ 	color:white;
  	font-weight:bold;
  	font-family:"menu";
  	font-style:italic;
+ 	font-size:1.3em;
    /*border-top:2px solid #0677E5;*/
  }
 
  .navbar-default .navbar-nav>li>a:hover{
-   border-top:3px solid #1BA1D6;
-   color:#1E95B7;
+   border-top:4px solid  #337ab7;
+   color:white;
  }
 
  .navbar-default .navbar-brand:hover{
     color:#1E95B7;
-}
+ }
+  
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   background:#273b47;
+  }
+
+   .navbar-nav>li>.dropdown-menu li a:hover{
+    background:#337ab7;
+    opacity:0.8;
+    color:white;
+   }
 
 
  
