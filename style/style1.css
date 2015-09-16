@@ -39,11 +39,9 @@
 
  .navbar-default .navbar-nav>li>a:hover{
    border-top:4px solid  #337ab7;
-   color:white;
  }
-
- .navbar-default .navbar-brand:hover{
-    color:#1E95B7;
+ .navbar-inverse .navbar-nav>li>a{
+  color:white;
  }
   
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
